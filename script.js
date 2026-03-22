@@ -46,3 +46,7 @@ console.log(`Area of the rectangle is: ${area}`);
 // </html>
 
 
+// 5. Experiment with console warnings and errors
+
+console.error('error message');
+console.warn('wraning message');
