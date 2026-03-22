@@ -50,3 +50,11 @@ console.log(`Area of the rectangle is: ${area}`);
 
 console.error('error message');
 console.warn('wraning message');
+
+
+// JavaScript Data Types
+
+// chapter two
+
+
+
