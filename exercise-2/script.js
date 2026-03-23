@@ -36,3 +36,20 @@ if(true){
 }
 console.log(testVar);
 
+let outer ='I am outer';
+function inner(){
+    console.log(outer);
+}
+inner();
+
+for (let i=0; i<3; i++){
+    setTimeout(() => console.log(i) ,1000);
+}
+
+const numbers=[1,2,3];
+numbers.push(4);
+console.log(numbers);
+
+
+
+
