@@ -20,3 +20,19 @@ function show(){
 }
 show();
 console.log(globalVar);
+
+function test(){
+    var functionVar='Inside function';
+    console.log(functionVar);
+}
+if(true){
+    let blockVar='inside block';
+    const anotherVar='Also block';
+    console.log(blockVar);
+}
+
+if(true){
+    var testVar='Using var'
+}
+console.log(testVar);
+
