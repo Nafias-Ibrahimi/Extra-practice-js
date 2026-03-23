@@ -110,5 +110,32 @@ for (let j = 1; j <= 4; j++) {
  persons.city='Kabul';
  console.log(persons);
 
+// 6. Write code that shows the scope chain in action.
 
- 
+var global='global scope';
+function outerFunction(){
+    var outerVar='she is outer';
+    function innerFunction(){
+        var innerVar='she is inner';
+        console.log(global);
+        console.log(outerVar);
+        console.log(innerVar);
+    }
+    innerFunction();
+}
+outerFunction();
+
+var k=10;
+function outers(){
+    var h=20;
+    function inners(){
+        var d=30;
+        console.log(`k: k`);
+        console.log('h : h');
+        console.log(`d : d`);
+    }
+    inners();
+}
+outers();
+
+
