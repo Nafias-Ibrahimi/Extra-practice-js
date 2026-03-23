@@ -66,8 +66,29 @@ console.log(PI);
 // 2. Write a function with a var inside. Try to access it outside. What happens?
 
 
+function Message(){
+    var message='Hello world';
+    console.log(message);
+
+}
+Message();
+console.log(message); 
+// ReferenceError: message is not defined  
+
+// 3. Demonstrate hoisting with var and compare with let.
+
+// console.log(name);
+// var name='Farzana';
+// console.log(name);
+
+console.log(b);
+var b=20;
+console.log(b); // undefined
 
 
+console.log(s);
+let s=20;
+console.log(s);  // ReferenceError
 
 
 
