@@ -56,5 +56,32 @@ console.warn('wraning message');
 
 // chapter two
 
+// 1. Declare variables of each primitive type and log their typeof.
+
+let nums=20;
+console.log(typeof nums);
+// Number type
+
+let person='Ali';
+console.log( typeof 'pesron:' , person);
+// String type
+let student=true;
+console.log(typeof student);
+// Boolean type
+
+let x;
+console.log(typeof x);
+
+// Undefined type
+
+let a=null;
+console.log(typeof a);
+// object type
 
 
+// BigInt type
+let BigInt=12345678901234567890n;
+console.log(typeof BigInt);
+
+
+// 2. Create an object car with properties (brand, model, year). Access them.
