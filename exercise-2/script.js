@@ -50,6 +50,25 @@ const numbers=[1,2,3];
 numbers.push(4);
 console.log(numbers);
 
+// 1. Declare a var, let, and const. Try redeclaring and reassigning them. Write down
+// results.
+var name='ali';
+console.log(name);
+
+let n=4;
+n=20;
+console.log(n);
+
+const PI=3.14;
+console.log(PI);
+
+
+// 2. Write a function with a var inside. Try to access it outside. What happens?
+
+
+
+
+
 
 
 
