@@ -121,3 +121,5 @@ persons.age=25;
 persons.city='Kabul';
 delete persons.name;
 console.log(persons);
+
+
