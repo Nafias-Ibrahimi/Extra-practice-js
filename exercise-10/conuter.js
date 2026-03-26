@@ -8,6 +8,7 @@ document.body.style=`
       align-items: center;
       height: 100vh;
       margin: 0;
+      background-color:lightblue;
 `
 
 const textarea = document.createElement('textarea');
