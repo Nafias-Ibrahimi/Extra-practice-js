@@ -25,4 +25,29 @@ fruitArray.forEach(fruite =>{
     console.log(fruite.toLowerCase());
 });
 
+// Exercise 4:
+
+// function countChar(str, char){
+//     let count=0;
+//     for(let c of str){
+//         return count;
+//     }
+//     console.log(countChar('banana' , 'a'));
+// }
+
+function countChar(str , char){
+    const normalizedStr=str.toLowerCase();
+    const normalizedChar=char.toLowerCase();
+    const count=normalizedStr.split('').reduce((acc ,current) =>{
+return current===normalizedChar ? acc + 1 :acc;
+    },0);
+    return count;
+}
+ console.log(countChar('Hello World', 'l'));
+ console.log(countChar('Banana', 'a'));
+ console.log(countChar('javaScript' ,'J'));
+
+ 
+
+
 
