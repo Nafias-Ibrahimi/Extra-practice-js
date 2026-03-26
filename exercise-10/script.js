@@ -7,3 +7,7 @@ button.addEventListener('click' ,() =>{
     document.body.className=newTheme;
     localStorage.setItem('theme' , newTheme)
 } )
+
+
+
+
